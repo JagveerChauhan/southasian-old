@@ -1,0 +1,36 @@
+li{
+    list-style-type: none;
+    padding: 4px 20px;
+}
+.sidepanel {
+    width: 0;
+    position: absolute;
+    z-index: 4;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  .sidepanel1 {
+    width: 0;
+    position: absolute;
+    z-index: 4;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    text-decoration: none;
+    color: black;
+  }
