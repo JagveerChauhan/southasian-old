@@ -1,0 +1,71 @@
+li{
+    list-style-type: none;
+    padding: 4px 20px;
+    cursor: pointer;
+}
+
+.card-title{
+    font-size: 18px ;
+
+
+}
+.card-text{
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.text-danger{
+font-size: 11px;
+}
+
+img{
+    cursor: pointer;
+}
+.card-title:hover{
+    color: blue;
+}
+
+.sidepanel {
+    width: 0;
+    position: absolute;
+    z-index: 4;
+    height: 100vh;
+    top: 0;
+    left: -20px;
+    // background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    // padding-top: 60px;
+  }
+
+  .sidepanel1 {
+    width: 0;
+    position: absolute;
+    z-index: 4;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    // padding-top: 60px;
+  }
+  .closebtn {
+    position: relative;
+    top: 0;
+    left: 50px;
+    
+    font-size: 36px;
+    text-decoration: none;
+    color: #f5b90f;
+  }
+   .closebtnn {
+    position: relative;
+    top: 19px;
+    left: 250px;
+    
+    font-size: 36px;
+    text-decoration: none;
+    color: #f5b90f;
+  }
+
